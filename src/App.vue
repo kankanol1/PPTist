@@ -15,6 +15,9 @@ import Editor from './views/Editor/index.vue'
 import Screen from './views/Screen/index.vue'
 import Mobile from './views/Mobile.vue'
 
+// js脚本注入
+import '@/utils/PPTistConfig'
+
 export default defineComponent({
   name: 'app',
   components: {
